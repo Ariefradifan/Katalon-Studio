@@ -18,6 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//Testcase bisa di ubah ubah lewat Test data excel
 data = findTestData('Data Files/WebAutomation/WebAutomation')
 
 for (int i = 1; i <= data.getRowNumbers(); i++) {
